@@ -8,6 +8,7 @@ project
 |- README
 |
 |- data/
+|- code/
 |- results/
 |  |- Human-GEM-secretory.xml[.gz]          # Updated metabolic model
 |  |- task-metadata-secretory.txt           # Secretory task metadata
