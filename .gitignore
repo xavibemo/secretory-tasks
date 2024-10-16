@@ -3,6 +3,7 @@ repos/
 miguel_notebooks/
 modules/
 metabolic_tasks.ipynb
+figures/
 data/metabolicTasks_CellfieConsensus*
 data/rna_*
 code/sec_hpa_analysis.Rmd

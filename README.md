@@ -1,6 +1,6 @@
 # Curation of Secretory Tasks
 
-A repository dedicated to curate and incorporate genome-scale reconstructions of secretory pathways from [Gutierrez _et al._ 2020](#references) as Secretory Tasks described by [Masson _et al._ 2024](#references). Secretory Tasks were incorporated to the latest version of the Human-GEM metabolic model ([Robinson _et al._ 2020](#references)).
+A repository dedicated to curate and incorporate genome-scale reconstructions of secretory pathways from [Gutierrez _et al._ 2020](https://doi.org/10.1038/s41467-019-13867-y) as Secretory Tasks described by [Masson _et al._ 2024](https://doi.org/10.1016/j.ymben.2023.12.006). Secretory Tasks were incorporated to the latest version of the Human-GEM metabolic model ([Robinson _et al._ 2020](https://doi.org/10.1126/scisignal.aaz1482)).
 
 ```bash
 project
@@ -12,12 +12,8 @@ project
 |  |- Human-GEM-secretory.xml[.gz]          # Updated metabolic model
 |  |- task-metadata-secretory.txt           # Secretory task metadata
 |  |- task-structure-secretory[.json|.pkl]  # Task to Reaction to Gene relationships
+|  |- task-structure-secretory-matrix.tsv   # Logical matrix format
 ```
-
-## Validation Assay
-
-Data from the [Human Protein Atlas](proteinatlas.org) was downloaded. Specifically, the resource "RNA HPA immune cell sample gene data" was used.
-
 
 ## References
 
